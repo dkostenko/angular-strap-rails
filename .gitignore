@@ -1,0 +1,98 @@
+#----------------------------------------------------------------------------
+# Ignore these files when commiting to a git repository
+#
+# The original version of this file is found here:
+# https://github.com/RailsApps/rails3-application-templates/raw/master/files/gitignore.txt
+#
+# Corrections? Improvements? Create a GitHub issue:
+# http://github.com/RailsApps/rails3-application-templates/issues
+#----------------------------------------------------------------------------
+
+# local stuff
+/shared/
+config/local_unicorn.rb
+config/thinking_sphinx.yml
+public/user_logs
+.rvmrc
+/.notes
+
+
+# bundler state
+/.bundle
+/vendor/bundle/
+_system/
+
+# minimal Rails specific artifacts
+
+db/*.sqlite3
+db/schema.rb
+/log/*
+tmp/*
+/db/sphinx
+/config/development.sphinx.conf
+/config/test.sphinx.conf
+/config/sphinx.yml
+
+*~
+# /config/unicorn.rb
+/Gemfile.lock
+/Guardfile
+# various artifacts
+# .rvmrc
+**.war
+*.rbc
+*.sassc
+.idea/
+.rspec
+.redcar/
+.sass-cache
+/results
+/from_mobile
+#/config/config.yml
+/config/database.yml
+config/database.yml
+/coverage.data
+/coverage/
+/db/*.javadb/
+/db/*.sqlite3-journal
+/doc/api/
+/doc/app/
+/doc/features.html
+/doc/specs.html
+/public/cache
+/public/stylesheets/compiled
+/public/system
+/public/ckeditor_assets
+/public/uploads
+/public/assets
+/public/mobile_logs
+/public/result_files
+/spec/tmp/*
+/cache
+/capybara*
+/capybara-*.html
+/gems
+/rerun.txt
+/spec/requests
+/spec/routing
+/spec/views
+/specifications
+/cached_pages/*
+/Guardfile
+
+# scm revert files
+**.orig
+
+# Mac finder artifacts
+.DS_Store
+
+# Netbeans project directory
+/nbproject/
+
+# Textmate project files
+/*.tmproj
+
+# vim artifacts
+**.swp
+/results
+/public/result_files
